@@ -1,0 +1,21 @@
+Step-by-step Excel Instructions
+1. Import the data from the Baltimore City Government into Excel
+2. Filter the data by job title and selected only ‘EMT Firefighter’ and ‘EMT Fire Fighter’
+3. Copy this data to a separate excel sheet labelled ‘firefighters-data’
+4. Generate a pivot table with the data for a quick overview of the relevant data
+      a. In rows put ‘FiscalYear’, and put ‘AnnualSalary’ and ‘GrossPay’ in values
+      b. Convert both the ‘AnnualSalary’ and ‘GrossPay’ columns into averages
+5. Copy the data from the pivot table on annual and paste it into a separate excel sheet labelled ‘simplereg-vis’
+      a. Create a fiscal year column from 2011 – 2020
+      b. Pasted the average annual salary into the corresponding years as values
+      c. Create a column ‘Average of Annual Salary Previous Year’ and paste the data into the corresponding years again
+      d. Remove 2011 as there was no data from the previous year
+6. Create a scatterplot using this data with the ‘Average of Annual Salary Previous Year’ as the x variable and the ‘Average Annual Salary’ as the y variable
+      a. Add graph and axes titles
+      b. Add a trend line and the corresponding equation and r squared value
+      c. Calculate the standard error of the residual
+7. Performed a similar linear regression analysis for gross pay and gross pay of the previous year
+      a. Repeat steps 5-6 for this analysis
+8. For the multiple regression analysis, use the data for ‘Average of Annual Salary Previous Year’, ‘Average of Gross Pay’ and ‘Average of Gross Pay Previous Year’ 
+      a. Use the Excel Data Analysis ToolPak to perform a multiple linear regression analysis on the data and generated the results to a new sheet ‘multiplereg-analysis’
+
