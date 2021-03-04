@@ -4,7 +4,7 @@
 I used Microsoft Excel to conduct data analysis on the annual salary of fire fighters in Baltimore City. I used open data from the Baltimore City government on employee salaries from 2011 – 2020 to generate a regression model to predict the future annual salary of fire fighters. 
 
 ## Business Question
-Can we predict the annual salary for a fire fighter based on data from previous years?
+Can we predict the annual salary of Baltimore City fire fighters based on data from previous years?
 
 ## Data Sources – Open Data
 [Baltimore City Government Employee Salaries](https://data.baltimorecity.gov/datasets/baltimore-employee-salaries).
